@@ -1,0 +1,73 @@
+{
+    "transparent_color": "#FF00FF",
+    "sprites": {
+        "body": "body.png",
+        "left_hand": "limb.png",
+        "right_hand": "limb.png",
+        "left_foot": "limb.png",
+        "right_foot": "limb.png",
+        "body_attack": "body_attack.png",
+        "body_steal": "body_steal.png"
+    },
+    "sizes": {
+        "body_width": 80,
+        "body_height": 90,
+        "left_hand_width": 20,
+        "left_hand_height": 22,
+        "right_hand_width": 20,
+        "right_hand_height": 22,
+        "left_foot_width": 24,
+        "left_foot_height": 18,
+        "right_foot_width": 24,
+        "right_foot_height": 18
+    },
+    "speed": {
+        "walk_speed_min": 1.8,
+        "walk_speed_max": 2.2,
+        "walk_acceleration": 0.08,
+        "attack_speed": 2.5,
+        "attack_acceleration": 0.45,
+        "steal_speed": 2.5,
+        "steal_acceleration": 0.15,
+        "friction": 0.92,
+        "steal_friction": 0.85
+    },
+    "offsets": {
+        "left_hand_x": 30,
+        "left_hand_y": 50,
+        "right_hand_x": 30,
+        "right_hand_y": 50,
+        "left_foot_x": 10,
+        "left_foot_y": 6,
+        "right_foot_x": 10,
+        "right_foot_y": 6
+    },
+    "amplitudes": {
+        "left_hand_swing": 1.3,
+        "right_hand_swing": 1.3,
+        "left_foot_swing": 1.0,
+        "right_foot_swing": 1.0
+    },
+    "animation": {
+        "step_speed_modifier": 0.15,
+        "steal_anim_speed_factor": 0.6,
+        "body_bounce_height": 2,
+        "jump_height": -30,
+        "jump_recovery_speed": 2.0
+    },
+    "behavior": {
+        "idle_min_time": 60,
+        "idle_max_time": 210,
+        "steal_distance": 25,
+        "walk_stop_distance": 20,
+        "attack_stop_distance": 25,
+        "idle_state_duration": 90,
+        "mouse_steal_enabled": true
+    },
+    "window": {
+        "canvas_size": 300,
+        "start_x": 500,
+        "start_y": 500
+    },
+    "reload_config_key": "f5"
+}
